@@ -1,0 +1,7 @@
+
+.cont_pai{
+    display:grid;
+    grid-template-rows: 100px;
+    grid-template-columns: ;
+    gap: 5px;
+}
