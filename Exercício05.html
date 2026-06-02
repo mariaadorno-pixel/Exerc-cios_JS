@@ -1,56 +1,154 @@
 <!doctype html>
 <html lang="pt-br
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <style>
-        .marcador{
-            background-color: black;
-            border: rgb(255, 255, 255) solid 1px;
-            color:aliceblue;
-            text-align: center;
-        }
-    </style>
-  </head>
-  <body>
+    <meta charset=" utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Informações sobre o Japão</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+<style>
+    .marcador {
+        background-color: rgb(245, 220, 223);
+        border: rgb(255, 255, 255) solid 1px;
+        border-radius: 10px;
+        color: aliceblue;
+        text-align: center;
+    }
+
+    header {
+        background-image: url(arvoresdojapão.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 400px;
+        padding-bottom: 200px;
+        background-repeat: no-repeat;
+    }
+
+    body{
+        background-image: url(FundoDegradê.jpg);
+        background-repeat: no-repeat;
+        
+    }
+
+    .rosa {
+        background-color: rgb(203, 138, 157);
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+    }
+
+    .banner-texto {
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #ffffff;
+        font-family: Arial, sans-serif;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+
+    }
+</style>
+</head>
+
+<body>
+    <header>
+        <div class="banner-texto">
+            <h1>JAPÃO</h1>
+            <p>Informações sobre o Território Japonês</p>
+        </div>
+    </header>
     <div class="container">
         <!--INÍCIO ROW1-->
-        <div class="row marcador">
-            <img src="Imagem/macaquinho pensando.jpg">
+        <div class="rowmarcador">
+            <img src="">
         </div>
         <!--FINAL ROW1-->
         <!--INÍCIO ROW2-->
         <div class="row">
             <!--COLUNA ESQUERDA-->
             <div class="marcador col12 col-sm-6 col-1g-2">
-                <h3>Eventos</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic inventore aspernatur eos suscipit excepturi quaerat, accusamus dolore quam! Accusantium necessitatibus aut quos ducimus commodi qui quidem numquam autem distinctio esse?
-                </p>
+                <div class="rosa">
+                    <h3>LOCALIZAÇÃO</h3>
+                    <p>
+                        O território japonês está localizado a leste do continente eurasiano, na região denominada
+                        Nordeste
+                        Asiático ou Ásia Oriental. Está circundado pelo Oceano Pacífico, pelo Mar de Okhotsk, pelo Mar
+                        do
+                        Japão e pelo Mar da China Oriental.
+
+                        O seu ponto mais oriental é a Ilha Minami-Tori (longitude 153°59'12"L), o mais ocidental é a
+                        Ilha
+                        Yonaguni (longitude 122°55'57"L), o mais meridional é a Ilha Oki-no-Tori (latitude 20°25'31"N) e
+                        o
+                        mais setentrional é a ilha Etorofu (latitude 45°33'26"N) .
+                    </p>
+                </div>
             </div>
             <!--COLUNA MEIO-->
             <div class="marcador col-12 col-sm-6 col-lg-6">
-                <h3>Lanche e porções</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quia fugiat, hic, dolor ipsam deserunt quibusdam maiores architecto provident vero facilis iure facere ducimus modi doloremque, harum aliquam magni id.
-                </p>
+                <div class="rosa">
+                    <h3>ÁREA</h3>
+                    <p>
+                        A área total do território japonês é de cerca de 378.000 quilômetros quadrados. A maior ilha é
+                        Honshu, com cerca de 228.000 quilômetros quadrados, sendo a 7.ª maior ilha do mundo.
+                    </p>
+                </div>
             </div>
+
             <!--COLUNA DIREITA-->
-            <div class="marcador col-12 col-sm-12 col-lg-4">
-                <h3>nossos espaços</h3>
-                <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas voluptates molestias deserunt. Officiis molestias placeat, voluptatibus dolorem vitae corrupti sunt quisquam inventore possimus, aliquam quis, nisi fugiat qui maiores perferendis.
-                </p>
+            <div class="marcador col-lg-6">
+                <div class="rosa">
+                    <!-- NATUREZA -->
+                    <h3>NATUREZA</h3>
+                    <P>
+                        O Japão é um país montanhoso, com dois terços do seu território coberto por florestas. A maioria
+                        das áreas possui um clima temperado com quatro estações, apesar de em Okinawa, ao sul, o clima
+                        ser subtropical, e em Hokkaido, ao norte, ser subártico. Consequentemente, o Japão tem uma rica
+                        biodiversidade. Adicionalmente, subsiste um grande número de valiosos ecossistemas por todo o
+                        país, com as quatro áreas de Shiretoko, Shirakami-Sanchi, ilhas Ogasawara e Yakushima, fazendo
+                        parte da lista do Patrimônio Mundial da UNESCO.
+                    </P>
+                </div>
             </div>
+
+            <div class="marcador col-lg-6">
+                <div class="rosa">
+                    <!-- CURIOSIDADE -->
+                    <h3>CURIOSIDADE</h3>
+                    <p>
+                        De acordo com uma pesquisa americana, o japonês é um dos idiomas mais “rápidos” do mundo. O
+                        estudo leva em consideração a quantidade média de sílabas expressadas por segundo como fator
+                        determinante. Nossos amigos da terra do sol nascente pronunciam em torno de 7.84 sílabas por
+                        segundo. Comparado com o inglês, que tem em média 6.19/s a língua japonesa fala 1.65 sílabas a
+                        mais por segundo!
+                    </p>
+                </div>
+            </div>
+            <!--FINAL ROW2-->
+
         </div>
-        <!--FINAL ROW2-->
-        <!--INÍCIO ROW2-->
-        <div class="row marcador">
-            
-        </div>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-  </body>
+
+            <!--INÍCIO ROW3-->
+            <div class="row marcador">
+                <div class="col-12 col-sm-12 h-50">
+                    <div class="d-none d-md-block">
+                        <div class="rosa">
+
+                            <p>
+                                O território do Japão compreende as quatro grandes ilhas, Hokkaido, Honshu, Shikoku, e
+                                Kyushu, e outras ilhas menores.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--FINAL ROW3-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+            crossorigin="anonymous"></script>
+
+</body>
+
 </html>
