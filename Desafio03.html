@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var nome = prompt('Seu nome:');
+        var classe=prompt('Digitr sua classe: (1/2/3)');
+        var venda = Number(prompt('Digite seu salário:'));
+
+        if (classe == '1') {
+            var salario = 1500;
+            var comissao = 0.025;
+            var total = salario + comissao * venda;
+            document.write('Você ira receber neste mês :' +total+ 'reais.');
+        }
+
+        else if (classe == '2') {
+            var salario = 2000;
+            var comissao = 0.03;
+            var total = salario + comissao * venda;
+            document.write('Você ira receber neste mês :' +total+ 'reais.');
+        }
+        else if (classe == '3') {
+            var salario = 2500;
+            var comissao = 0.035;
+            var total = salario + comissao * venda;
+            document.write('Você ira receber neste mês :' +total+ 'reais.');
+        } else {
+
+        }
+
+    </script>
+</body>
+
+</html>
