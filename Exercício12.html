@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício12</title>
+</head>
+<body>
+    <script>
+ var a = Number(prompt("Digite o valor de A:"));
+var b = Number(prompt("Digite o valor de B:"));
+var c = Number(prompt("Digite o valor de C:"));
+
+var delta = (b * b) - (4 * a * c);
+
+if (a == 0 || delta < 0) {
+    alert("Impossivel calcular");
+} else {
+    var r1 = (-b + Math.sqrt(delta)) / (2 * a);
+    var r2 = (-b - Math.sqrt(delta)) / (2 * a);
+
+    alert("R1 = " + r1.toFixed(5) +
+          "\nR2 = " + r2.toFixed(5));
+}
+    </script>
+</body>
+</html>
